@@ -4,7 +4,7 @@
 ![AES](https://img.shields.io/badge/Encryption-AES-green)
 ![RSA](https://img.shields.io/badge/Encryption-RSA-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-![GitHub stars](https://img.shields.io/github/stars/SheezaAlam/Encrypted-Chat-App?style=social)
+![GitHub stars](https://github.com/SheezaAlam/encrypted_chatapp_using_RSA_AES_Python)
 
 
 A simple **end-to-end encrypted chat application** built with **Python sockets**, **AES**, and **RSA**.  
