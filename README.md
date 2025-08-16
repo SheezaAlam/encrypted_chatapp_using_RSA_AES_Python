@@ -1,12 +1,11 @@
+# 🔐 Encrypted Chat App  
 
-```markdown
-# 🔐 Encrypted Chat App
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![AES](https://img.shields.io/badge/Encryption-AES-green)
+![RSA](https://img.shields.io/badge/Encryption-RSA-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![GitHub stars](https://img.shields.io/github/stars/SheezaAlam/Encrypted-Chat-App?style=social)
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
-[![AES](https://img.shields.io/badge/Encryption-AES-green)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-[![RSA](https://img.shields.io/badge/Encryption-RSA-orange)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/SheezaAlam/Encrypted-Chat-App?style=social)](https://github.com/SheezaAlam/Encrypted-Chat-App/stargazers)
 
 A simple **end-to-end encrypted chat application** built with **Python sockets**, **AES**, and **RSA**.  
 This project demonstrates how secure communication works in real-time over the network.
