@@ -1,9 +1,14 @@
 
 ```markdown
-# 🔐 Encrypted Chat Application
+# 🔐 Encrypted Chat Application  
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)  
+![Encryption](https://img.shields.io/badge/Security-AES%2BRSA-green?logo=lock)  
+![License](https://img.shields.io/badge/License-MIT-orange)  
+![Status](https://img.shields.io/badge/Status-Active-success)  
 
 A simple end-to-end encrypted chat application built in **Python** using **sockets** for networking and **AES + RSA** for encryption.  
-This project demonstrates the basics of **secure communication protocols** — including key exchange, message encryption, and safe client-server interaction.
+This project demonstrates the basics of **secure communication protocols** — including key exchange, message encryption, and safe client-server interaction.  
 
 ---
 
@@ -86,9 +91,3 @@ Feel free to fork this repo, improve the code (e.g., add GUI, multiple clients, 
 
 This project is for **educational purposes only** and should not be used in production systems.
 
-```
-
-
-
-Do you want me to also **embed GitHub badges** (like Python, Security, License, Stars, etc.) at the top of this README to make it look more trendy and eye-catching?
-```
