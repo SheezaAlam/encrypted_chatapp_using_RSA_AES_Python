@@ -1,4 +1,3 @@
-Here’s a **simple, professional README** for your encrypted chat project:
 
 ```markdown
 # 🔐 Encrypted Chat Application
