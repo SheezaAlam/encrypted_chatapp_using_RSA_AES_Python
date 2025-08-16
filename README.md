@@ -1,98 +1,92 @@
 
 ```markdown
-# 🔐 Encrypted Chat Application  
+# 🔐 Encrypted Chat App
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)  
-[![Crypto](https://img.shields.io/badge/Security-AES%20%7C%20RSA-green?logo=hackaday)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-[![Stars](https://img.shields.io/github/stars/yourusername/encrypted-chat?style=social)](https://github.com/yourusername/encrypted-chat/stargazers)  
-[![Issues](https://img.shields.io/github/issues/yourusername/encrypted-chat)](https://github.com/yourusername/encrypted-chat/issues)  
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
+[![AES](https://img.shields.io/badge/Encryption-AES-green)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+[![RSA](https://img.shields.io/badge/Encryption-RSA-orange)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/SheezaAlam/Encrypted-Chat-App?style=social)](https://github.com/SheezaAlam/Encrypted-Chat-App/stargazers)
 
-A simple end-to-end encrypted chat application built in **Python** using **sockets** for networking and **AES + RSA** for encryption.  
-This project demonstrates the basics of **secure communication protocols** — including key exchange, message encryption, and safe client-server interaction.
+A simple **end-to-end encrypted chat application** built with **Python sockets**, **AES**, and **RSA**.  
+This project demonstrates how secure communication works in real-time over the network.
 
 ---
 
-## ✨ Features
-- 🔑 **RSA** used for exchanging encryption keys securely  
-- 🔒 **AES** used for fast and secure message encryption  
-- 💬 Real-time encrypted chat between client and server  
-- 🖥️ Command-line based, lightweight, and easy to run  
+## 🚀 Features
+- ✅ **AES Encryption** for fast and secure message transfer  
+- ✅ **RSA Encryption** for exchanging AES keys securely  
+- ✅ **Real-time Chat** using Python sockets  
+- ✅ **Cross-platform** (works on any OS with Python installed)  
+
+---
+
+## 🛠️ Tech Stack
+- **Python 3.10+**
+- **AES (Symmetric Encryption)**
+- **RSA (Asymmetric Encryption)**
+- **Socket Programming**
 
 ---
 
 ## 📂 Project Structure
 ```
 
-encrypted-chat/
-│── server.py       # Server code (receives connections and messages)
-│── client.py       # Client code (connects to server, sends/receives messages)
-│── README.md       # Project documentation
+📦 Encrypted-Chat-App
+┣ 📜 server.py   # Server code (handles clients, RSA + AES setup)
+┣ 📜 client.py   # Client code (connects to server, sends/receives encrypted messages)
+┣ 📜 requirements.txt # Dependencies
+┗ 📜 README.md   # Documentation
 
 ````
 
 ---
 
-## ⚡ How It Works
-1. The **server** generates RSA keys (public & private).  
-2. The **client** requests the public key and uses it to encrypt a randomly generated AES session key.  
-3. The server decrypts the AES key using its RSA private key.  
-4. All chat messages are encrypted using AES before being sent.  
-5. Both sides can now chat securely, with messages unreadable to eavesdroppers.  
+## ⚡ Quick Start
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.x  
-- `pycryptodome` library (for AES & RSA)  
-
-Install dependencies:
+1️⃣ Clone the repo  
 ```bash
-pip install pycryptodome
+git clone https://github.com/SheezaAlam/Encrypted-Chat-App.git
+cd Encrypted-Chat-App
 ````
 
-### Running the Chat
+2️⃣ Install dependencies
 
-1. Start the server:
+```bash
+pip install -r requirements.txt
+```
+
+3️⃣ Start the server
 
 ```bash
 python server.py
 ```
 
-2. In another terminal, run the client:
+4️⃣ Open another terminal and run the client
 
 ```bash
 python client.py
 ```
 
-3. Start chatting securely! 🔐
+5️⃣ Start chatting securely! 🎉
 
 ---
 
-## 📖 Learning Objectives
+## 📖 How It Works
 
-This project will help you understand:
-
-* How socket programming works in Python
-* The role of **RSA** in secure key exchange
-* Why **AES** is used for actual message encryption (fast & secure)
-* Basics of designing an **encrypted communication system**
+* 🗝 **RSA** is used to securely exchange an AES session key.
+* 🔑 **AES** then encrypts/decrypts chat messages in real time.
+* 📡 Messages travel encrypted over the network — even if intercepted, they can’t be read.
 
 ---
 
-## 🤝 Contributions
+## 🤝 Contributing
 
-Feel free to fork this repo, improve the code (e.g., add GUI, multiple clients, or file transfer), and submit pull requests!
+Pull requests are welcome! For major changes, please open an issue first to discuss.
 
 ---
 
-## 🛡️ Disclaimer
+## 📜 License
 
-This project is for **educational purposes only** and should not be used in production systems.
+This project is licensed under the [MIT License](LICENSE).
 
-```
-
-Do you want me to **make the badges appear in one line (row)** instead of stacked vertically? That looks even more **pro-level**.
-```
