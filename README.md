@@ -15,9 +15,22 @@ A simple end-to-end encrypted chat using:
 ## 🧰 Tech
 `Python 3.10+`, `cryptography`, `sockets`
 
-## ▶️ Run
-```bash
+## ▶️ Run  
 pip install -r requirements.txt
 python server.py
 # in another terminal:
 python client.py
+
+Type messages on each side. Use exit to close.
+
+## ⚠️ Notes (for learning) 
+
+Never reuse the same (key, nonce) pair in GCM.
+
+This demo is single client and not authenticated by identity (no certificates).
+
+For production, add: persistent RSA keys, client auth, multiple clients (threads/async), ECDH for forward secrecy.
+
+## 📜 License
+
+MIT
