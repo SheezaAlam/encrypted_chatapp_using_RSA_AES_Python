@@ -4,7 +4,6 @@
 ![AES](https://img.shields.io/badge/Encryption-AES-green)
 ![RSA](https://img.shields.io/badge/Encryption-RSA-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-![GitHub stars](https://img.shields.io/github/stars/SheezaAlam/Encrypted-Chat-App?style=social)
 
 
 A simple end-to-end encrypted chat using:
@@ -31,7 +30,7 @@ A simple end-to-end encrypted chat using:
 ## ▶️ Run  
 pip install -r requirements.txt
 python server.py
-# in another terminal:
+# In another terminal:
 python client.py
 
 Type messages on each side. Use exit to close.
@@ -47,4 +46,5 @@ For production, add: persistent RSA keys, client auth, multiple clients (threads
 ## 📜 License
 
 MIT
+
 
