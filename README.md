@@ -1,10 +1,23 @@
 # 🔐 Encrypted Chat App (Python, RSA + AES-GCM)
+ 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![AES](https://img.shields.io/badge/Encryption-AES-green)
+![RSA](https://img.shields.io/badge/Encryption-RSA-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![GitHub stars](https://img.shields.io/github/stars/SheezaAlam/Encrypted-Chat-App?style=social)
+
 
 A simple end-to-end encrypted chat using:
 - **RSA-OAEP** to exchange an AES session key
 - **AES-GCM** to encrypt each message (confidentiality + integrity)
 - **TCP sockets** for real-time chat
 - **Length-prefixed frames** so messages aren’t cut
+
+  # 📦 Encrypted-Chat-App 
+┣ 📜 server.py # Server code (handles clients, RSA + AES setup) 
+┣ 📜 client.py # Client code (connects to server, sends/receives encrypted messages) 
+┣ 📜 requirements.txt # Dependencies 
+┗ 📜 README.md # Documentation
 
 ## ✅ Features
 - RSA public key sent from server → client
@@ -34,3 +47,4 @@ For production, add: persistent RSA keys, client auth, multiple clients (threads
 ## 📜 License
 
 MIT
+
